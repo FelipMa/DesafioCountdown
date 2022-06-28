@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+      --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+  }
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--light-grey);
+}
+header{
+    display: flex;
+}
+header img{
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+section h1{
+    color: var(--purple);
+    text-align: justify;
+    font-size: 2rem;
+}
+section h1::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+#Countdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+}
+.Count{
+    font-size: 3rem;
+    text-align: center;
+}
+section h2{
+    color: var(--text-color);
+}
+section h3{
+    margin-top: 2rem;
+    color: var(--text-color)
+}
+section button{
+    color: white;
+    border: none;
+    background-color: var(--purple);
+    margin: 0 7rem;
+    height: 3rem;
+    border-radius: 8%;
+    margin-top: 2rem;
+}
+section button:hover{
+    border: black solid;
+}
+footer{
+    display: flex;
+}
+footer img{
+    width: 100%;
+}
